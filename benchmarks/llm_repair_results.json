@@ -1,0 +1,685 @@
+{
+ "summary": {
+  "provider": "none",
+  "model": null,
+  "programs_failing_at_start": 29,
+  "blocked_skipped": [
+   "mini/tc11_command_injection.cpp"
+  ],
+  "repaired_by_rules": 21,
+  "repaired_with_llm": 21,
+  "extra_from_llm": 0,
+  "llm_calls": {},
+  "last_provider_error": "",
+  "seconds": 0.0
+ },
+ "rows": [
+  {
+   "name": "break_outside_loop.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "const_assignment.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "continue_outside_loop.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "invalid_array_index.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "invalid_operands.cpp",
+   "rules": {
+    "verdict": "UNCHANGED",
+    "built_before": false,
+    "built_after": false,
+    "errors_before": 1,
+    "errors_after": 1,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 0
+   },
+   "llm": {
+    "verdict": "UNCHANGED",
+    "built_before": false,
+    "built_after": false,
+    "errors_before": 1,
+    "errors_after": 1,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 0
+   }
+  },
+  {
+   "name": "invalid_return_type.cpp",
+   "rules": {
+    "verdict": "UNCHANGED",
+    "built_before": false,
+    "built_after": false,
+    "errors_before": 1,
+    "errors_after": 1,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 0
+   },
+   "llm": {
+    "verdict": "UNCHANGED",
+    "built_before": false,
+    "built_after": false,
+    "errors_before": 1,
+    "errors_after": 1,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 0
+   }
+  },
+  {
+   "name": "invalid_use_of_void.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "mini/tc01_missing_semicolon.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 2,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 2,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "mini/tc02_undeclared_variable.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "mini/tc03_missing_include.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 3,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 3,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "mini/tc05_missing_closing_brace.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "mini/tc06_wrong_stream_operator.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 2,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 2,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "mini/tc07_keyword_typo.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "mini/tc10_buffer_overflow_gets.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "mini/tc13_use_after_free.cpp",
+   "rules": {
+    "verdict": "UNCHANGED",
+    "built_before": false,
+    "built_after": false,
+    "errors_before": 1,
+    "errors_after": 1,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 0
+   },
+   "llm": {
+    "verdict": "UNCHANGED",
+    "built_before": false,
+    "built_after": false,
+    "errors_before": 1,
+    "errors_after": 1,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 0
+   }
+  },
+  {
+   "name": "mini/tc14_format_string_vuln.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "mini/tc15_combined_errors_and_threats.cpp",
+   "rules": {
+    "verdict": "UNCHANGED",
+    "built_before": false,
+    "built_after": false,
+    "errors_before": 2,
+    "errors_after": 2,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 0
+   },
+   "llm": {
+    "verdict": "UNCHANGED",
+    "built_before": false,
+    "built_after": false,
+    "errors_before": 2,
+    "errors_after": 2,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 0
+   }
+  },
+  {
+   "name": "mini/tc16_redefinition_double_free.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "missing_brace.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "missing_header.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 2,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 2,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "multiple_definition.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "no_matching_function.cpp",
+   "rules": {
+    "verdict": "UNCHANGED",
+    "built_before": false,
+    "built_after": false,
+    "errors_before": 1,
+    "errors_after": 1,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 0
+   },
+   "llm": {
+    "verdict": "UNCHANGED",
+    "built_before": false,
+    "built_after": false,
+    "errors_before": 1,
+    "errors_after": 1,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 0
+   }
+  },
+  {
+   "name": "pointer_misuse.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "redefination.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "sizeof_function.cpp",
+   "rules": {
+    "verdict": "UNCHANGED",
+    "built_before": false,
+    "built_after": false,
+    "errors_before": 1,
+    "errors_after": 1,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 0
+   },
+   "llm": {
+    "verdict": "UNCHANGED",
+    "built_before": false,
+    "built_after": false,
+    "errors_before": 1,
+    "errors_after": 1,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 0
+   }
+  },
+  {
+   "name": "syntax_error.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  },
+  {
+   "name": "type_error.cpp",
+   "rules": {
+    "verdict": "UNCHANGED",
+    "built_before": false,
+    "built_after": false,
+    "errors_before": 1,
+    "errors_after": 1,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 0
+   },
+   "llm": {
+    "verdict": "UNCHANGED",
+    "built_before": false,
+    "built_after": false,
+    "errors_before": 1,
+    "errors_after": 1,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 0
+   }
+  },
+  {
+   "name": "undeclared_var.cpp",
+   "rules": {
+    "verdict": "UNCHANGED",
+    "built_before": false,
+    "built_after": false,
+    "errors_before": 1,
+    "errors_after": 1,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 0
+   },
+   "llm": {
+    "verdict": "UNCHANGED",
+    "built_before": false,
+    "built_after": false,
+    "errors_before": 1,
+    "errors_after": 1,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 0
+   }
+  },
+  {
+   "name": "wrong_main_signature.cpp",
+   "rules": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   },
+   "llm": {
+    "verdict": "VERIFIED",
+    "built_before": false,
+    "built_after": true,
+    "errors_before": 1,
+    "errors_after": 0,
+    "llm_accepted": 0,
+    "llm_rejected": [],
+    "rule_fixes": 1
+   }
+  }
+ ]
+}

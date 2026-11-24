@@ -1,0 +1,38 @@
+{"message": "expected ',' or ';' before 'std'", "category": "syntax_error", "source": "rule:message", "ast_node": ""}
+{"message": "unused variable 'x' [-Wunused-variable]", "category": "unused_variable", "source": "rule:-Wunused-variable", "ast_node": ""}
+{"message": "'value' was not declared in this scope", "category": "name_resolution", "source": "rule:message", "ast_node": ""}
+{"message": "format not a string literal and no format arguments [-Wformat-security]", "category": "format_string", "source": "rule:-Wformat-security", "ast_node": ""}
+{"message": "variable 't' set but not used [-Wunused-but-set-variable]", "category": "unused_variable", "source": "rule:-Wunused-but-set-variable", "ast_node": ""}
+{"message": "pointer 'q' used after 'void free(void*)' [-Wuse-after-free]", "category": "use_after_free", "source": "rule:-Wuse-after-free", "ast_node": ""}
+{"message": "'void operator delete(void*, std::size_t)' called on pointer returned from a mismatched allocation function [-Wmismatched-new-delete]", "category": "memory_mismatch", "source": "rule:-Wmismatched-new-delete", "ast_node": ""}
+{"message": "Security Error: Malicious command injection or forbidden system call detected.", "category": "security_violation", "source": "rule:message", "ast_node": ""}
+{"message": "expected ',' or ';' before 'int'", "category": "syntax_error", "source": "rule:message", "ast_node": "DeclStmt"}
+{"message": "expected primary-expression before 'int'", "category": "syntax_error", "source": "rule:message", "ast_node": "DeclStmt"}
+{"message": "'total' is used uninitialized [-Wuninitialized]", "category": "uninitialized_memory", "source": "rule:-Wuninitialized", "ast_node": ""}
+{"message": "a function-definition is not allowed here before '{' token", "category": "missing_closing_brace", "source": "rule:message", "ast_node": ""}
+{"message": "expected '}' at end of input", "category": "missing_closing_brace", "source": "rule:message", "ast_node": "FunctionDecl"}
+{"message": "no match for 'operator<<' in 'std::cin << age' (operand types are 'std::istream' {aka 'std::basic_istream<char>'} and 'int')", "category": "type_error", "source": "rule:message", "ast_node": "RecoveryExpr"}
+{"message": "no type named 'type' in 'struct std::enable_if<false, void>'", "category": "template_error", "source": "rule:message", "ast_node": "RecoveryExpr"}
+{"message": "no return statement in function returning non-void [-Wreturn-type]", "category": "return_type_error", "source": "rule:-Wreturn-type", "ast_node": "FunctionDecl"}
+{"message": "unused parameter 'a' [-Wunused-parameter]", "category": "unused_variable", "source": "rule:-Wunused-parameter", "ast_node": "FunctionDecl"}
+{"message": "ignoring return value of 'char* fgets(char*, int, FILE*)' declared with attribute 'warn_unused_result' [-Wunused-result]", "category": "unchecked_return", "source": "rule:-Wunused-result", "ast_node": "CallExpr"}
+{"message": "expected initializer before 'score'", "category": "syntax_error", "source": "rule:message", "ast_node": "DeclStmt"}
+{"message": "redefinition of 'int computeScore(int, int)'", "category": "redefinition", "source": "rule:message", "ast_node": "FunctionDecl"}
+{"message": "break statement not within loop or switch", "category": "control_flow_error", "source": "rule:message", "ast_node": ""}
+{"message": "assignment of read-only variable 'x'", "category": "access_error", "source": "rule:message", "ast_node": "RecoveryExpr"}
+{"message": "continue statement not within a loop", "category": "control_flow_error", "source": "rule:message", "ast_node": ""}
+{"message": "conversion from 'double' to 'int' changes value from '3.1400000000000001e+0' to '3' [-Wfloat-conversion]", "category": "narrowing_conversion", "source": "rule:-Wfloat-conversion", "ast_node": ""}
+{"message": "invalid types 'int [5][double]' for array subscript", "category": "type_error", "source": "rule:message", "ast_node": ""}
+{"message": "cast to pointer from integer of different size [-Wint-to-pointer-cast]", "category": "cast_safety", "source": "rule:-Wint-to-pointer-cast", "ast_node": ""}
+{"message": "no match for 'operator+' in 'x + s' (operand types are 'int' and 'std::string' {aka 'std::__cxx11::basic_string<char>'})", "category": "type_error", "source": "rule:message", "ast_node": "DeclStmt"}
+{"message": "invalid conversion from 'const char*' to 'int' [-fpermissive]", "category": "type_error", "source": "rule:message", "ast_node": "ReturnStmt"}
+{"message": "void value not ignored as it ought to be", "category": "type_error", "source": "rule:message", "ast_node": "DeclStmt"}
+{"message": "expected ';' before '}' token", "category": "syntax_error", "source": "rule:message", "ast_node": "CXXOperatorCallExpr"}
+{"message": "statement has no effect [-Wunused-value]", "category": "logic_error", "source": "rule:-Wunused-value", "ast_node": ""}
+{"message": "too many arguments to function 'void foo(int)'", "category": "type_error", "source": "rule:message", "ast_node": "RecoveryExpr"}
+{"message": "null pointer dereference [-Wnull-dereference]", "category": "null_dereference", "source": "rule:-Wnull-dereference", "ast_node": ""}
+{"message": "comparison of integer expressions of different signedness: 'unsigned int' and 'int' [-Wsign-compare]", "category": "sign_conversion", "source": "rule:-Wsign-compare", "ast_node": ""}
+{"message": "ISO C++ forbids applying 'sizeof' to an expression of function type [-fpermissive]", "category": "type_error", "source": "rule:-Wfpermissive", "ast_node": "DeclStmt"}
+{"message": "expected ',' or ';' before 'cout'", "category": "syntax_error", "source": "rule:message", "ast_node": "DeclStmt"}
+{"message": "invalid conversion from 'int' to 'char*' [-fpermissive]", "category": "type_error", "source": "rule:message", "ast_node": "DeclStmt"}
+{"message": "'::main' must return 'int'", "category": "return_type_error", "source": "rule:message", "ast_node": "FunctionDecl"}
