@@ -129,6 +129,28 @@ tests/       automated tests
 benchmarks/  evaluation scripts and results
 tools/       doctor.py, heal_demo.py, make_big_tests.py
 ```
+##  Screenshots
+
+<table>
+<tr>
+<td><img src="./screenshots/dia_agentic2.png" width="500"></td>
+<td><img src="./screenshots/dia_multi2.png" width="500"></td>
+</tr>
+
+<tr>
+<td><img src="./screenshots/fig_ba.png" width="500"></td>
+<td><img src="./screenshots/fig_cm.png" width="500"></td>
+</tr>
+
+<tr>
+<td><img src="./screenshots/fig_gold.png" width="500"></td>
+<td><img src="./screenshots/fig_heal.png" width="500"></td>
+</tr>
+</table>
+
+<p align="center">
+<img src="./screenshots/fig_models.png" width="800">
+</p>
 
 ## Limitations
 Projects are built with a plain compile + link of every file (no CMake/Makefile parsing: use `--cxxflags` / `--link-flags` for defines and libraries); healing is rule-based and stops on cases needing human intent (linker errors,
